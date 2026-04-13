@@ -1,4 +1,4 @@
-# 📌 QR Generator Web App
+<img width="1128" height="896" alt="image" src="https://github.com/user-attachments/assets/f33be4e9-a7dc-4d0f-b819-ba3ab3eaeff6" /># 📌 QR Generator Web App
 
 A modern and interactive **QR Code Generator & Scanner Web Application** built using HTML, CSS, JavaScript, and Node.js (Express).
 This app allows users to generate, download, save, and scan QR codes with a clean UI.
@@ -75,28 +75,25 @@ http://localhost:5000/
 
 # 🧠 How It Works
 
-User enters text/URL → QR is generated using QRCode library
+> User enters text/URL → QR is generated using QRCode library
 
-QR can be downloaded as PNG
+> QR can be downloaded as PNG
 
 **Save feature:**
 
-Stores in localStorage
+> Stores in localStorage
 
-Also sends data to backend (/save API)
+> Also sends data to backend (/save API)
 
-Scanner uses device camera to decode QR
-
-📸 Screenshots
-
+> Scanner uses device camera to decode QR
 
 # 🔗 API Endpoints
 
-Method	Endpoint	Description
+> Method	Endpoint	Description
 
-POST	/save	Save QR data
+> POST	/save	Save QR data
 
-GET	/all	Get all saved QR data
+> GET	/all	Get all saved QR data
 
 📌 Future Improvements
 
