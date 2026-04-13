@@ -1,4 +1,4 @@
-<img width="1128" height="896" alt="image" src="https://github.com/user-attachments/assets/f33be4e9-a7dc-4d0f-b819-ba3ab3eaeff6" /># 📌 QR Generator Web App
+# 📌 QR Generator Web App
 
 A modern and interactive **QR Code Generator & Scanner Web Application** built using HTML, CSS, JavaScript, and Node.js (Express).
 This app allows users to generate, download, save, and scan QR codes with a clean UI.
@@ -104,6 +104,10 @@ http://localhost:5000/
 📊 QR analytics
 
 🎨 Custom QR design (color/logo)
+
+# Screenshot
+
+<img width="1128" height="896" alt="image" src="https://github.com/user-attachments/assets/f33be4e9-a7dc-4d0f-b819-ba3ab3eaeff6" />
 
 # 🤝 Contributing
 
