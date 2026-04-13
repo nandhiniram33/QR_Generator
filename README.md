@@ -16,36 +16,52 @@ This app allows users to generate, download, save, and scan QR codes with a clea
 # Frontend
 
 HTML
+
 CSS
+
 JavaScript
 
 # Backend
 
 Node.js
+
 Express.js
 
 # Libraries
 
 QRCode.js
+
 HTML5-QRCode
 
 # 📂 Project Structure
+
 **QR_GENERATOR/**
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 │── server.js
+
 │── package.json
+
 │── package-lock.json
 
 # ⚙️ Installation & Setup
+
 1️⃣ **Clone the repository**
+
 git clone https://github.com/your-username/QR_GENERATOR.git
 cd QR_GENERATOR
+
 2️⃣ **Install dependencies**
 npm install
+
 3️⃣ **Run the server**
 npm start
+
 4️⃣ **Open in browser**
 http://localhost:5000/
 
