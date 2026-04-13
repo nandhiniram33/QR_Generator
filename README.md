@@ -59,8 +59,6 @@ HTML5-QRCode
 
 1️⃣ **Clone the repository**
 
-git clone https://github.com/your-username/QR_GENERATOR.git
-
 cd QR_GENERATOR
 
 2️⃣ **Install dependencies**
