@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart QR Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Smart QR Platform</h1>
+    <p class="subtitle">Generate, save, scan, and export QR codes with a polished interface.</p>
+    <input type="text" id="qrText" placeholder="Enter text or URL">
+    <div class="buttons">
+      <button onclick="generateQR()">Generate QR</button>
+      <button onclick="downloadQR()">Download</button>
+      <button onclick="saveQR()">Save</button>
+      <button onclick="startScanner()">Scan QR</button>
+      <button id="cancelScanBtn" class="cancel" onclick="cancelScanner()">Cancel Scan</button>
+    </div>
+    <div id="qrResult"></div>
+    <div id="reader"></div>
+    <h2>Saved QRs</h2>
+    <ul id="savedList"></ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="https://unpkg.com/html5-qrcode"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

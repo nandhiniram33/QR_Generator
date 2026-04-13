@@ -1,0 +1,5 @@
+cd D:\QR_Generator
+Set-Location D:\QR_Generator
+npm install
+npm start
+http://localhost:5000/
